@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wordpress Assignment | Nithin</title>
+    <link rel="icon" type="image/x-icon" href="apple-touch-icon.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Header -->
+  <div class="top-header">
+      ONLINE FOOD ORDER FOR TAKEOUT
+  </div>
+
+  <!-- Info Bar -->
+  <div class="info-bar">
+    <div class="container d-flex justify-content-end align-items-center py-1">
+        <div>
+          <a href="#" class="text-dark text-decoration-none">TACO TRAILER.OPEN</a> &nbsp; | &nbsp;
+          <span class="text-dark">ROOFTOP BAR.OPEN</span>
+        </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+          <img src="logo.png" alt="Logo" class="logo">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">BEERS</a></li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">STORE</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">STORE ONE</a></li>
+                    <li><a class="dropdown-item" href="#">STORE TWO</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ABOUT</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Our Story</a></li>
+                    <li><a class="dropdown-item" href="#">Team</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">MENU</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">MENU ONE</a></li>
+                    <li><a class="dropdown-item" href="#">MENU TWO</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">TAPROOM EVENTS</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">EVENT ONE</a></li>
+                    <li><a class="dropdown-item" href="#">EVENT TWO</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">EVENT CENTER</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">EVENT CENTER ONE</a></li>
+                    <li><a class="dropdown-item" href="#">EVENT CENTER TWO</a></li>
+                </ul>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">BLOG</a></li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">CONTACT</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">CONTACT ONE</a></li>
+                    <li><a class="dropdown-item" href="#">CONTACT TWO</a></li>
+                </ul>
+            </li>
+        </ul>
+      </div>
+      <div class="social-icons d-flex">
+        <a href="#" class="text-dark me-3"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="text-dark me-3"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" class="text-dark me-3"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="#" class="text-dark me-3"><i class="fa-brands fa-telegram"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Carousel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image1.jpg" class="d-block w-100 carousel-img" alt="Food Item 1">
+      </div>
+      <div class="carousel-item">
+        <img src="image2.jpg" class="d-block w-100 carousel-img" alt="Food Item 2">
+      </div>
+      <div class="carousel-item">
+        <img src="image3.jpg" class="d-block w-100 carousel-img" alt="Food Item 3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="section-one">
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-6">
+              <div class="section-one-box">
+                  <img src="visit.jpg" alt="Taproom Image">
+                  <div class="section-one-icon">
+                      <i class="bi bi-geo-alt-fill"></i>
+                      <p>VISIT OUR TAPROOM</p>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-6">
+              <div class="section-one-box">
+                  <img src="upcoming.jpg" alt="Industrial Elegance">
+                  <div class="section-one-icon">
+                      <i class="bi bi-calendar"></i>
+                      <p>UPCOMING EVENTS</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-two">
+    <div class="container">
+      <div class="row justify-content-center">
+          <div class="col-md-6">
+              <div class="section-two-video">
+                  <div class="video-wrapper">
+                      <iframe width="100%" height="100" 
+                          src="https://www.youtube.com/embed/YOUR_VIDEO_ID_1" 
+                          title="Taproom Video" frameborder="0" allowfullscreen>
+                      </iframe>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-6">
+              <div class="section-two-video">
+                  <div class="video-wrapper">
+                      <iframe width="100%" height="100" 
+                          src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" 
+                          title="Industrial Elegance Video" frameborder="0" allowfullscreen>
+                      </iframe>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="section-two-video">
+                <div class="video-wrapper">
+                    <iframe width="100%" height="100" 
+                        src="https://www.youtube.com/embed/YOUR_VIDEO_ID_2" 
+                        title="Industrial Elegance Video" frameborder="0" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="information">
+        <h5>cincinati brewery, pizza, and event center</h5>
+        <p>Little Miami Brewing Company is a Cincinnati Brewery nestled in the heart of historic Old Milford, Ohio, on the banks of the scenic Little Miami River. <br> You'll love this Cincinnati brewery, where passion for craft beer meets good times and great food.</p>
+      </div>
+      <div class="information">
+        <h5>CRAFT BEER</h5>
+        <p>Since 2017, <span>we've been dedicated to brewing award winning small-batch craft beer,</span> made with fresh, local ingredients whenever possible. Explore our ever-changing lineup of brews, from hoppy IPAs to crisp lagers, and everything in between. Find what's on tap at the finest</p>
+        <a href="#" class="info-a">Find What's On Tap>></a>
+      </div>
+      <div class="information">
+        <h5>DELICIOUS FOOD</h5>
+        <p>Our kitchen dishes up mouth-watering pizzas, salads, pretzels, chili, and nachos, perfect for pairing with your favorite beer. Check out our menu and discover why we are the go-to brewery in Cincinnati</p>
+        <a href="#" class="info-a">View Our Menu>></a>
+      </div>
+      <div class="information">
+        <h5>VIBRANT TAPROOM</h5>
+        <p>Pull up a seat in our inviting taproom, where you can relax with friends, catch a Bengals or Reds game on TV, or enjoy live music on select nights. Little Miami Brewing Company is the perfect Cincinnati brewery for an unforgettable night out.</p>
+      </div>
+      <div class="information">
+        <h5>SCENIC ROOFTOP</h5>
+        <p>Planning a celebration? Our spacious Event Center can accommodate weddings, concerts, rehearsals dinners, birthday parties, retirement parties, and more. Host your event at Little Miami Brewing Company, the best brewery in Cincinnati<br>Whether you're a craft beer enthusiast, a foodie, or simply looking for a great place to gather with friends, we invite you to experience the Little Miami Brewing Company difference. Cheers!</p>
+        <a href="#" class="info-a">Get Directions>></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-three">
+    <div class="container">
+      <div class="testi-monials-head">
+        <h5>what Our Client Say about us</h5>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="testi-monials-card">
+                <div class="projects-images">
+                    <img src="images/img2.jpg" alt="img" class="project-img">
+                    <div class="hover-icon">
+                        <a href="singleprojects.html"><i class="bi bi-arrow-up-right-square"></i></a>
+                    </div>
+                </div>
+            </div>                
+        </div>   
+        
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="testi-monials-card">
+                <div class="projects-images">
+                    <img src="images/img2.jpg" alt="img" class="project-img">
+                    <div class="hover-icon">
+                        <a href="singleprojects.html"><i class="bi bi-arrow-up-right-square"></i></a>
+                    </div>
+                </div>
+            </div>                
+        </div>   
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="testi-monials-card">
+                <div class="projects-images">
+                    <img src="images/img2.jpg" alt="img" class="project-img">
+                    <div class="hover-icon">
+                        <a href="singleprojects.html"><i class="bi bi-arrow-up-right-square"></i></a>
+                    </div>
+                </div>
+            </div>                
+        </div>   
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="testi-monials-card">
+                <div class="projects-images">
+                    <img src="images/img2.jpg" alt="img" class="project-img">
+                    <div class="hover-icon">
+                        <a href="singleprojects.html"><i class="bi bi-arrow-up-right-square"></i></a>
+                    </div>
+                </div>
+            </div>                
+        </div>   
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="testi-monials-card">
+                <div class="projects-images">
+                    <img src="images/img2.jpg" alt="img" class="project-img">
+                    <div class="hover-icon">
+                        <a href="singleprojects.html"><i class="bi bi-arrow-up-right-square"></i></a>
+                    </div>
+                </div>
+            </div>                
+        </div>   
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="testi-monials-card">
+                <div class="projects-images">
+                    <img src="images/img2.jpg" alt="img" class="project-img">
+                    <div class="hover-icon">
+                        <a href="singleprojects.html"><i class="bi bi-arrow-up-right-square"></i></a>
+                    </div>
+                </div>
+            </div>                
+        </div>   
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="testi-monials-card">
+                <div class="projects-images">
+                    <img src="images/img2.jpg" alt="img" class="project-img">
+                    <div class="hover-icon">
+                        <a href="singleprojects.html"><i class="bi bi-arrow-up-right-square"></i></a>
+                    </div>
+                </div>
+            </div>                
+        </div>   
+
+        <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+            <div class="testi-monials-card">
+                <div class="projects-images">
+                    <img src="images/img2.jpg" alt="img" class="project-img">
+                    <div class="hover-icon">
+                       <a href="singleprojects.html"><i class="bi bi-arrow-up-right-square"></i></a>
+                    </div>
+                </div>
+            </div>                
+        </div>   
+      </div>
+    </div>
+  </div>
+
+  <div class="section-four">
+    <div class="container">
+      <div class="our-loactaion-head">
+        <h5>Our Location</h5>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23597.684607324652!2d-71.21870543124311!3d42.327371506507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3827e9f7c4729%3A0x14c47c16044ea920!2sNewton%20Centre%2C%20Newton%2C%20MA%2C%20USA!5e0!3m2!1sen!2sin!4v1741282898059!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="our-location-content">
+            <h4>Dinner</h4>
+            <p>Sunday - Thursday - 4 PM-10 PM</p>
+            <p>Friday - Saturday - 4 PM-11 PM</p>
+
+            <h4>Lunch</h4>
+            <p>Friday - Saturday - 4 PM-11 PM</p>
+
+            <h4>Brunch</h4>
+            <p>Friday - Saturday - 4 PM-11 PM</p>
+
+            <h4>Takeout</h4>
+            <p>Friday - Saturday - 4 PM-11 PM</p>
+            <div>
+              <p>65 Lewis Street</p>
+              <p>East Boston, MA 02128</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-five">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 d-flex align-items-center gap-3">
+                <h5 class="newsletter-title">NEWSLETTER</h5>
+                <p class="newsletter-text">Subscribe to our Newsletter to keep up on the latest news at LMBC.</p>
+            </div>
+            <div class="col-md-6 text-end">
+                <div class="newsletter-input">
+                    <input type="email" class="form-control" placeholder="Enter Your E-mail Address">
+                    <button type="submit" class="btn">Go</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+
+
+
+
+  <footer class="bg-dark text-light py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <h5 class="fw-bold text-uppercase">OUR LOCATION</h5>
+          <p>208 Mill Street,<br>Milford, Ohio 45150</p>
+          <p class="group">Group Reservations:<br><a href="#" class="text-light">reserve@littlemiamibrewing.com</a></p>
+          <p class="group">Band Inquiries/Lost Items:<br><a href="#" class="text-light">joe@littlemiamibrewing.com</a></p>
+          <p>Event Center Coordinator: <span class="highlight">513-680-1570</span></p>
+          <p>aproom/Brewery Phone:<span class="highlight"> 513-680-1570</span></p>
+        </div>
+  
+        <div class="col-lg-4 mb-4">
+          <h5 class="fw-bold text-uppercase">Taproom Hours. Kitchen Closes 1 Hour Earlier</h5>
+          <ul class="list-hour">
+            <li class="d-flex justify-content-between border-bottom py-2"><span>Monday</span> <span>11am - 10pm</span></li>
+            <li class="d-flex justify-content-between border-bottom py-2"><span>Tuesday</span> <span>11am - 11pm</span></li>
+            <li class="d-flex justify-content-between border-bottom py-2"><span>Wednesday</span> <span>11am - 11pm</span></li>
+            <li class="d-flex justify-content-between border-bottom py-2"><span>Thursday</span> <span>11am - 11pm</span></li>
+            <li class="d-flex justify-content-between border-bottom py-2"><span>Friday</span> <span>11am - 12am</span></li>
+            <li class="d-flex justify-content-between border-bottom py-2"><span>Saturday</span> <span>11am - 12am</span></li>
+            <li class="d-flex justify-content-between border-bottom py-2"><span>Sunday</span> <span>11am - 10pm</span></li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-4 mb-4">
+          <h5 class="fw-bold text-uppercase">FOLLOW US</h5>
+          <div>
+            <a href="#" class="text-light me-3"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-light me-3"><i class="bi bi-twitter"></i></a>
+            <a href="#" class="text-light"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
